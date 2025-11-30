@@ -1,0 +1,11 @@
+﻿<div class="col-lg-4">
+	<div class="card">
+		<img class="card-img-top" src="@Model.img" alt="@Model.Name" style="object-fit: contain; max-height: 300px; width: 100%;" />
+		<div class="card-body">
+			<h5 class="card-title">@Model.Name</h5>
+			<p class="card-text">@Model.ShortDesc</p>
+			<p class="card-text">Ціна: @Model.price.ToString("c")</p>
+			<a class="btn btn-warning" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@Model.Id"> Додати в корзину</a>
+		</div>
+	</div>
+</div>

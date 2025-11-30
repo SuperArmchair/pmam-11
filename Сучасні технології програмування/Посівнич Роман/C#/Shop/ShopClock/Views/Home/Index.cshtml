@@ -1,0 +1,11 @@
+﻿@model HomeViewModel
+
+<h1 class="text-center mt-5">Популярні годинники</h1>
+<div class="row mt-5 mb-2">
+	@{
+		foreach (Clock clock in Model.favClocks)
+		{
+			@Html.Partial("AllClocks", clock)
+		}
+	}
+</div>

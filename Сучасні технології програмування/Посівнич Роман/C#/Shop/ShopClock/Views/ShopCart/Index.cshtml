@@ -1,0 +1,15 @@
+﻿@model ShopCartViewModel
+<div class="container">
+    @foreach (var el in Model.shopCart.listShopItems)
+    {
+        <div class="card mt-3">
+            <div class="card-body">
+                <h5 class="card-title">Годинник: @el.clock.Name</h5>
+                <p class="card-text">Ціна: @el.clock.price.ToString("c")</p>
+                <a class="btn btn-sm btn-outline-danger" asp-controller="ShopCart" asp-action="RemoveFromCart" asp-route-clockId="@el.clock.Id">Видалити</a>
+            </div>
+        </div>
+    }
+    <hr />
+    <a class="btn btn-danger" asp-controller="Order" asp-action="Checkout">Сплатити</a>
+</div>

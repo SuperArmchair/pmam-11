@@ -1,0 +1,12 @@
+﻿<div class="text-center mt-3">
+	<h3>@Model.ClockCategory</h3>
+</div>
+
+<div class="row mt-5 mb-2">
+	@{
+		foreach (Clock clock in Model.allClocks)
+		{
+			@Html.Partial("AllClocks", clock)
+		}
+	}
+</div>
