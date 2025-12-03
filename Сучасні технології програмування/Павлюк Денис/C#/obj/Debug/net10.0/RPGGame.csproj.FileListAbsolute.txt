@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\C#\bin\Debug\net10.0\RPGGame.exe
+C:\Users\admin\Desktop\C#\bin\Debug\net10.0\RPGGame.deps.json
+C:\Users\admin\Desktop\C#\bin\Debug\net10.0\RPGGame.runtimeconfig.json
+C:\Users\admin\Desktop\C#\bin\Debug\net10.0\RPGGame.dll
+C:\Users\admin\Desktop\C#\bin\Debug\net10.0\RPGGame.pdb
+C:\Users\admin\Desktop\C#\obj\Debug\net10.0\RPGGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\C#\obj\Debug\net10.0\RPGGame.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\C#\obj\Debug\net10.0\RPGGame.AssemblyInfo.cs
+C:\Users\admin\Desktop\C#\obj\Debug\net10.0\RPGGame.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\C#\obj\Debug\net10.0\RPGGame.dll
+C:\Users\admin\Desktop\C#\obj\Debug\net10.0\refint\RPGGame.dll
+C:\Users\admin\Desktop\C#\obj\Debug\net10.0\RPGGame.pdb
+C:\Users\admin\Desktop\C#\obj\Debug\net10.0\RPGGame.genruntimeconfig.cache
+C:\Users\admin\Desktop\C#\obj\Debug\net10.0\ref\RPGGame.dll
